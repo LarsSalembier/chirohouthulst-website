@@ -9,6 +9,7 @@ import {
     navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import Image from "next/image";
+import {Facebook, Instagram} from "lucide-react";
 
 const routes = [
     {label: "Home", href: "/"},
@@ -56,6 +57,29 @@ export function Navbar(props: NavbarProps) {
                                     </Link>
                                 </NavigationMenuItem>
                             ))}
+                            {/*Facebook and Instagram*/}
+                            <NavigationMenuItem>
+                                <Link href="https://www.facebook.com/ChiroHouthulst" passHref>
+                                    <NavigationMenuLink
+                                        className={
+                                            navigationMenuTriggerStyle() + " bg-transparent"
+                                        }
+                                    >
+                                        <Facebook/>
+                                    </NavigationMenuLink>
+                                </Link>
+                            </NavigationMenuItem>
+                            <NavigationMenuItem>
+                                <Link href="https://www.instagram.com/chirohouthulst" passHref>
+                                    <NavigationMenuLink
+                                        className={
+                                            navigationMenuTriggerStyle() + " bg-transparent"
+                                        }
+                                    >
+                                        <Instagram/>
+                                    </NavigationMenuLink>
+                                </Link>
+                            </NavigationMenuItem>
                         </NavigationMenuList>
                     </NavigationMenu>
                 </div>
