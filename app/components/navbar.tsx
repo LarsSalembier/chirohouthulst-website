@@ -14,9 +14,7 @@ import {Facebook, Instagram} from "lucide-react";
 const routes = [
     {label: "Home", href: "/"},
     {label: "Kalender", href: "/kalender"},
-    {label: "Over ons", href: "/over-ons"},
     {label: "Leiding", href: "/leiding"},
-    {label: "Contact", href: "/contact"},
 ];
 
 type NavbarProps = {

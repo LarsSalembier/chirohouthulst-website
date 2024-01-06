@@ -36,7 +36,7 @@ export default function Home() {
                 </Article>
 
                 <Article title={"Enkele afspraken"}>
-                    Inschrijven in de Chiro kost €20. Zo zijn jullie kinderen ook verzekerd.
+                    Inschrijven in de Chiro kost €30. Zo zijn jullie kinderen ook verzekerd.
 
                     Wij bieden elke chironamiddag een vieruurtje aan voor €1. Breng je liever je eigen drankje en
                     koekje mee, is dat zeker geen probleem.
