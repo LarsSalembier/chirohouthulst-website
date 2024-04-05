@@ -1,6 +1,10 @@
 import {Navbar} from "@/app/components/navbar";
 import {Footer} from "@/app/components/footer";
 import {Article} from "@/app/components/article";
+import {Metadata} from "next";
+import {generateMetadata} from "@/app/metadata";
+
+export const metadata: Metadata = generateMetadata("Home");
 
 export default function Home() {
     return (
@@ -23,12 +27,14 @@ export default function Home() {
                     Iedereen is welkom in onze Chiro, van het derde kleuter tot en met het vijfde middelbaar. Bijna elke
                     zondag (zie kalender) is er Chiro van 14 tot 17 uur.
 
-                    Voor de keti&apos;s en de aspi&apos;s (derde t.e.m. vijfde middelbaar) is er Chiro van 14 tot 18 uur.
+                    Voor de keti&apos;s en de aspi&apos;s (derde t.e.m. vijfde middelbaar) is er Chiro van 14 tot 18
+                    uur.
 
                     Inschrijven voor het Chirojaar kan elke Chirozondag. Uw kind kan altijd eens de Chiro komen
                     &apos;uittesten&apos;, inschrijven hoeft niet voor de eerste zondag.
 
-                    Houd zeker ook onze Facebookpagina in de gaten, hier plaatsen wij regelmatig foto&apos;s en belangrijke
+                    Houd zeker ook onze Facebookpagina in de gaten, hier plaatsen wij regelmatig foto&apos;s en
+                    belangrijke
                     informatie!
                 </Article>
                 <Article title={"Waar?"}>
@@ -48,6 +54,5 @@ export default function Home() {
             </main>
             <Footer/>
         </div>
-    )
-        ;
+    );
 }

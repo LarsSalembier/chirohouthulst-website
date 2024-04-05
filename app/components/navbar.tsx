@@ -35,9 +35,9 @@ export function Navbar(props: NavbarProps) {
             <div className="absolute top-0 left-0 z-1 w-full h-full backdrop-brightness-50"/>
             <div className="flex flex-col p-8 text-2xl z-10 relative text-slate-50 w-full max-w-7xl">
                 <div className="flex items-center justify-between">
-                    <div className="sm:flex hidden">
+                    <div className="flex">
                         <Link href="/" className="font-bold">
-                            <h1>Chiro Houthulst</h1>
+                            <Image src="/logo.png" alt="Chiro Houthulst logo" width={35} height={35}/>
                         </Link>
                     </div>
                     <NavigationMenu className="sm:flex hidden">
@@ -47,7 +47,7 @@ export function Navbar(props: NavbarProps) {
                                     <Link href={route.href} legacyBehavior passHref>
                                         <NavigationMenuLink
                                             className={
-                                                navigationMenuTriggerStyle() + " bg-transparent"
+                                                navigationMenuTriggerStyle()
                                             }
                                         >
                                             {route.label}
@@ -55,7 +55,6 @@ export function Navbar(props: NavbarProps) {
                                     </Link>
                                 </NavigationMenuItem>
                             ))}
-                            {/*Facebook and Instagram*/}
                             <NavigationMenuItem>
                                 <Link href="https://www.facebook.com/ChiroHouthulst" passHref>
                                     <NavigationMenuLink
