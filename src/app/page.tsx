@@ -53,30 +53,30 @@ export default function Home() {
                 <li>Speelclub: 3de en 4de leerjaar</li>
                 <li>Kwiks: meisjes 5de en 6de leerjaar</li>
                 <li>Rakkers: jongens 5de en 6de leerjaar</li>
-                <li>Tito's: 1ste en 2e middelbaar</li>
+                <li>Tito&apos;s: 1ste en 2e middelbaar</li>
                 <li>Kerels: jongens 3e en 4e middelbaar</li>
-                <li>Tip-10's: meisjes 3e en 4e middelbaar</li>
-                <li>Aspi's: 5e middelbaar</li>
+                <li>Tip-10&apos;s: meisjes 3e en 4e middelbaar</li>
+                <li>Aspi&apos;s: 5e middelbaar</li>
               </ul>
             </section>
             <section className='mb-8'>
               <h3 className='mb-2 font-sans text-2xl'>Zondag</h3>
               <p className='text-lg'>
                 Elke zondag is er Chiro van 14u tot 17u in ons Chiroheem
-                (Jonkershovestraat 101S). De keti's en aspi's hebben een uurtje
-                langer Chiro, tot 18u. Tijdens de Chironamiddag voorzien wij een
-                vieruurtje voor €1. Als je liever je eigen drankje en koekje
-                meebrengt, is dat ook geen probleem.
+                (Jonkershovestraat 101S). De keti&apos;s en aspi&apos;s hebben
+                een uurtje langer Chiro, tot 18u. Tijdens de Chironamiddag
+                voorzien wij een vieruurtje voor €1. Als je liever je eigen
+                drankje en koekje meebrengt, is dat ook geen probleem.
               </p>
             </section>
             <section className='mb-8'>
               <h3 className='mb-2 font-sans text-2xl'>Kamp</h3>
               <p className='text-lg'>
-                Elk jaar gaan we op kamp van 20 t.e.m. 30 juli. De aspi's gaan
-                mee op nawacht tot 31 juli. Als je mee wil op kamp, vragen we je
-                om tijdens het jaar minstens vijf keer naar de Chiro te komen
-                (en liefst zo vaak mogelijk). Zo kunnen de leiding en medeleden
-                je beter leren kennen.
+                Elk jaar gaan we op kamp van 20 t.e.m. 30 juli. De aspi&apos;s
+                gaan mee op nawacht tot 31 juli. Als je mee wil op kamp, vragen
+                we je om tijdens het jaar minstens vijf keer naar de Chiro te
+                komen (en liefst zo vaak mogelijk). Zo kunnen de leiding en
+                medeleden je beter leren kennen.
               </p>
             </section>
             <section className='mb-8'>
